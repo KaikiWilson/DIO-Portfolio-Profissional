@@ -1,29 +1,28 @@
-.languages {
+ .experience {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-
+    flex-direction: column;
     margin: 0;
     padding: 0;
     list-style: none;
-}
+ }
 
-.languages li {
+ .experience li {
+    margin-bottom: 1rem;
+ }
+
+ .experience li .period {
     display: flex;
-    padding-right: 1rem;
     flex-direction: row;
     align-items: center;
-    font-weight: 700;
-}
+ }
 
-.languages li::before {
+ .experience li .period::before {
     content: '';
     display: inline-block;
     width: 1rem;
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/img/icons/check.svg');
+    background-image: url('/assets/img/icons/calendar.svg');
     margin-right: 0.5rem;
-}
+ }
