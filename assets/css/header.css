@@ -23,7 +23,15 @@
     height: 200px;
     border-radius: 50%;
     border: 1.5px solid #000;
-    box-shadow: 0px 0px 200px 50px #000
+    box-shadow: 0px 0px 200px 50px #000;
+    transition: .5s;
+}
+
+.header .photo:hover {
+    width: 230px;
+    height: 230px;
+    box-shadow: 0px 0px 50px 5px #cc02ff9d;
+    transition: .5s;
 }
 
 .header .title {

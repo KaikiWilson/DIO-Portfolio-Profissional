@@ -1,0 +1,51 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .tools ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-left: 2.5px solid cyan;
+}
+
+.skills .tools ul li img {
+    max-width: 50px;
+    margin: .5rem 1rem;
+    transition: .5s;
+}
+
+.skills .tools ul li img:hover {
+    max-width: 70px;
+    margin: .5rem 1rem;
+    transition: .5s;
+}
+
+.skills .personal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    border-left: 2.5px solid cyan;
+}
+
+.skills .personal ul li {
+    margin-left: 2rem;
+    padding: .5rem;
+}
+
+@media only screen and (min-width: 768px) {
+     .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
+}
